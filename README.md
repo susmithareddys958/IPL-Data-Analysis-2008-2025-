@@ -26,7 +26,6 @@ The dashboard allows users to explore:
 - **Drill-through Pages** for in-depth player and team stats
 
 ## 🧮 Sample DAX Measures
-```DAX
 Total Runs = SUM(deliveries[total_runs])
 
 Total Wickets = 
@@ -36,12 +35,8 @@ CALCULATE(
 )
 
 Win % = DIVIDE([Wins], [Matches Played], 0)
+
 🚀 How to Use
 Clone the repository:
-
 git clone [https://github.com/<your-username>/<your-repo>.git](https://github.com/susmithareddys958/IPL-Data-Analysis-2008-2025-.git)
 Open IPL_Analysis(BI).pbix in Power BI Desktop.
-
-If using external CSV files, update Data Source Settings.
-
-Click Refresh to load the latest data
